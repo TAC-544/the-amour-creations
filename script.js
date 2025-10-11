@@ -17,35 +17,35 @@
    images/bouquets/bouquet1.jpg ... bouquet15.jpg
 */
 const products = [
-  { id: "b1", category: "bracelet", name: "Beaded Bracelet", price: 100, img: "images/bracelets/b1.jpg", colors: ["Pink","Lavender","Sky Blue","Mint Green"] },
-  { id: "b2", category: "bracelet", name: "Charm Bracelet", price: 60, img: "images/bracelets/b2.jpg", colors: ["Rose Gold","Silver","Gold"] },
-  { id: "b2", category: "bracelet", name: "Charm Bracelet", price: 40, img: "images/bracelets/b3.jpg", colors: ["Rose Gold","Silver","Gold"] },
-  { id: "b2", category: "bracelet", name: "Charm Bracelet", price: 40, img: "images/bracelets/b4.jpg", colors: ["Rose Gold","Silver","Gold"] },
+  { id: "b1", category: "bracelet", name: "Customized Crystal Butterfly Charm Bracelet", price: 100, img: "images/bracelets/b1.jpg", colors: ["Pink","Lavender","Sky Blue","Mint Green","Yellow", "Orange"] },
+  { id: "b2", category: "bracelet", name: "Flower Charm  Bracelet", price: 60, img: "images/bracelets/b2.jpg", colors: ["Rose Gold","Navy Blue","Pink","Sky Blue","Red","Orange"] },
+  { id: "b2", category: "bracelet", name: "Crystal and Color Bracelet", price: 40, img: "images/bracelets/b3.jpg", colors: ["Lavender","Pink","Yellow","Blue","Orange"] },
+  { id: "b2", category: "bracelet", name: "Crystal Color Bracelet", price: 40, img: "images/bracelets/b4.jpg", colors: ["Blue","Green","Pink","Purple","Yellow","Orange"] },
 
+  { id: "ch2", category: "charm", name: "Lavender and Pearls Phone Charm", price: 100, img: "images/charms/c5.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Panda Charm Lavender Phone Charm", price: 150, img: "images/charms/c15.jpg", colors: ["Lavender","Pink","Orange"] },
+  { id: "ch1", category: "charm", name: "Orange and Pearls Phone Charm", price: 100, img: "images/charms/c1.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Blue and Pearls Phone Charm", price: 100, img: "images/charms/c2.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Yellow and Pearls Phone Charm", price: 100, img: "images/charms/c3.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Green and Pearls Phone Charm", price: 100, img: "images/charms/c4.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Baby Pink and Pearls Phone Charm", price: 100, img: "images/charms/c6.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Pink Aesthetic Phone Charm", price: 100, img: "images/charms/c7.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Trending Pink and Pearls Phone Charm", price: 100, img: "images/charms/c8.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Simple yet elegant Pearls Phone Charm", price: 60, img: "images/charms/c9.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Floral Pearl Phone Charm", price: 60, img: "images/charms/c10.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Heavy Aesthetic Pearl Phone Charm", price: 200, img: "images/charms/c11.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Simple Pearl Phone Charm", price: 60, img: "images/charms/c12.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Lavender Aesthetic Pearl Phone Charm", price: 150, img: "images/charms/c13.jpg", colors: ["Lavender","Pink","Orange"] },
+  { id: "ch2", category: "charm", name: "Crown Charm Lavender Phone Charm", price: 150, img: "images/charms/c14.jpg", colors: ["Lavender","Pink","Orange"] },
+  { id: "ch2", category: "charm", name: "Panda Charm Lavender Phone Charm", price: 150, img: "images/charms/c15.jpg", colors: ["Lavender","Pink","Orange"] },
 
-  { id: "ch1", category: "charm", name: "Heart Crystal Charm", price: 199, img: "images/charms/c1.jpg", colors: ["Red","Blue","Silver","Gold"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c2.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c3.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c4.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c5.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c6.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c7.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c8.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c9.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c10.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c11.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c12.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c13.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c14.jpg", colors: ["Purple","Rose Gold","White"] },
-  { id: "ch2", category: "charm", name: "Butterfly Charm", price: 249, img: "images/charms/c15.jpg", colors: ["Purple","Rose Gold","White"] },
+  { id: "bou1", category: "bouquet", name: "Navy Blue Flower Bouquet", price: 299, img: "images/bouquets/r1.jpg", colors: [] },
+  { id: "bou2", category: "bouquet", name: "Mini Red Rose Flower Bouquet", price: 159, img: "images/bouquets/r2.jpg", colors: [] },
+  { id: "bou2", category: "bouquet", name: "Queen Gifting Red Rose Flower Bouquet", price: 599, img: "images/bouquets/r3.jpg", colors: [] },
+  { id: "bou2", category: "bouquet", name: "Large Red Rose Flower Bouquet", price: 299, img: "images/bouquets/r4.jpg", colors: [] },
 
-  { id: "bou1", category: "bouquet", name: "Mini Rose Bouquet", price: 899, img: "images/bouquets/r1.jpg", colors: [] },
-  { id: "bou2", category: "bouquet", name: "Mixed Flower Bouquet", price: 999, img: "images/bouquets/r2.jpg", colors: [] },
-  { id: "bou2", category: "bouquet", name: "Mixed Flower Bouquet", price: 999, img: "images/bouquets/r3.jpg", colors: [] },
-  { id: "bou2", category: "bouquet", name: "Mixed Flower Bouquet", price: 999, img: "images/bouquets/r4.jpg", colors: [] },
-
-  { id: "c1", category: "candle", name: "White Candle", price: 399, img: "images/candles/c1.webp", colors: [] },
-  { id: "c2", category: "candle", name: "Rose Candle", price: 449, img: "images/candles/c2.jpg", colors: [] }
+  { id: "c1", category: "candle", name: "White Candle", price: 150, img: "images/candles/c1.webp", colors: [] }
+  //{ id: "c2", category: "candle", name: "Rose Candle", price: 449, img: "images/candles/c2.jpg", colors: [] }
 ];
 // NOTE: add more objects to this `products` array to match your full inventory
 
