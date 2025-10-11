@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Cart | The Amour Creations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+      <h1>The Amour Creations</h1>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html" class="active">Cart</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="cart-icon">
+        <a href="cart.html" class="cart-link">
+            <img src="images/cart.png" alt="Cart" id="cart-btn">
+            <span id="cart-count">0</span>
+        </a>
+    </div>
+
+  </header>
+
+  <main class="featured">
+    <h2>Your Shopping Cart 🛍️</h2>
+    <div id="cart-items-full" class="cart-list"></div>
+    <h3 id="cart-total-full"></h3>
+    <a href="checkout.html" class="btn">Proceed to Checkout</a>
+    <a href="shop.html" class="btn">Continue Shopping</a>
+  </main>
+
+  <footer>
+    <p>© 2025 The Amour Creations | Made with 💕</p>
+    <p>
+        <a href="https://www.instagram.com/the.amour.creations/" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a> |
+        <a href="https://wa.me/917674865110" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

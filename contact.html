@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | The Amour Creations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+      <h1>The Amour Creations</h1>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <div class="cart-icon">
+      <img src="images/cart.png" alt="Cart" id="cart-btn">
+      <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <main class="contact">
+    <h2>We'd Love to Hear from You 💌</h2>
+  <p>For custom orders, questions or collaborations, reach out below or message us directly:</p>
+
+  <div class="contact-buttons">
+    <a href="https://wa.me/917674865110" class="btn">WhatsApp</a>
+    <a href="https://instagram.com/the.amour.creations" class="btn">Instagram</a>
+  </div>
+
+  <p>Or send us a message directly:</p>
+
+  <form class="contact-form" action="https://formspree.io/f/mqayywky" method="POST">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn submit-btn">Send Message</button>
+  </form>
+      <div id="thank-you-message" class="thank-you hidden">
+      <h2>🎉 Thank You, <span id="sender-name"></span>!</h2>
+      <p>Your message has been sent successfully. We’ll get back to you soon 💌</p>
+      <a href="index.html" class="btn">Return to Home</a>
+    </div>
+    <p>Email: <b>asrabegum544@gmail.com</b></p>
+  </main>
+
+  <footer>
+    <p>© 2025 The Amour Creations | Made with 💕</p>
+    <p>
+        <a href="https://www.instagram.com/the.amour.creations/" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a> |
+        <a href="https://wa.me/917674865110" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Amour Creations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+      <h1>The Amour Creations 🌸</h1>
+    </div>
+
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="cart-icon">
+      <img src="images/cart.png" alt="Cart" id="cart-btn">
+      <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Beautifully Crafted Handmade Gifts 💕</h2>
+      <p>Bracelets, Charms, Bouquets & Candles — all made with love.</p>
+      <a class="btn" href="shop.html">Explore All</a>
+    </section>
+
+    <section class="featured">
+      <h2>Featured Collections</h2>
+
+      <div class="category-preview">
+        <h3>Bracelets ✨</h3>
+        <div class="product-grid preview-grid" id="home-bracelets">
+          <!-- rendered by script.js (first 2 bracelets) -->
+        </div>
+        <a href="shop.html#bracelets" class="btn small">View All Bracelets</a>
+      </div>
+
+      <div class="category-preview">
+        <h3>Phone Charms 📱</h3>
+        <div class="product-grid preview-grid" id="home-charms">
+          <!-- rendered by script.js (first 2 charms) -->
+        </div>
+        <a href="shop.html#charms" class="btn small">View All Charms</a>
+      </div>
+
+      <div class="category-preview">
+        <h3>Bouquets 💐</h3>
+        <div class="product-grid preview-grid" id="home-bouquets"></div>
+        <a href="shop.html#bouquets" class="btn small">View All Bouquets</a>
+      </div>
+
+      <div class="category-preview">
+        <h3>Candles 🕯️</h3>
+        <div class="product-grid preview-grid" id="home-candles"></div>
+        <a href="shop.html#candles" class="btn small">View All Candles</a>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews">
+      <h2>What Our Lovely Customers Say 💕</h2>
+
+      <div class="review-grid">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“Absolutely loved my bracelet! The detailing is beautiful and packaging was adorable. 💖”</p>
+          <h4>— Aisha M.</h4>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“The bouquet I ordered was stunning! It smelled amazing and made my friend’s day 🌷.”</p>
+          <h4>— Riya K.</h4>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★☆</div>
+          <p>“The charm I bought is so cute! Great quality and fast delivery too 💫.”</p>
+          <h4>— Neha S.</h4>
+        </div>
+      </div>
+
+      <a href="#review-form" class="btn">Leave a Review</a>
+
+      <form id="review-form" class="review-form" action="" method="POST">
+        <h3>Share Your Experience 💌</h3>
+
+        <label for="reviewer-name">Your Name:</label>
+        <input type="text" id="reviewer-name" required />
+
+        <label for="review-rating">Your Rating:</label>
+        <div class="star-rating">
+          <input type="radio" id="star5" name="rating" value="5" /><label for="star5">★</label>
+          <input type="radio" id="star4" name="rating" value="4" /><label for="star4">★</label>
+          <input type="radio" id="star3" name="rating" value="3" /><label for="star3">★</label>
+          <input type="radio" id="star2" name="rating" value="2" /><label for="star2">★</label>
+          <input type="radio" id="star1" name="rating" value="1" /><label for="star1">★</label>
+        </div>
+
+        <label for="review-text">Your Review:</label>
+        <textarea id="review-text" placeholder="Write your review here..." required></textarea>
+
+        <!-- to email reviews, replace form action with your Formspree endpoint
+             and uncomment the hidden input below:
+        <input type="hidden" name="reviewDetails" id="reviewDetails" />
+        -->
+        <button type="submit" class="btn">Submit Review</button>
+      </form>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <h2>✨ Customer Gallery ✨</h2>
+      <p class="gallery-desc">See how our lovely customers style their bracelets, charms, and bouquets 🌸</p>
+      <div class="gallery-grid">
+        <img src="images/g1.webp" alt="Bracelet Style" class="gallery-img">
+        <img src="images/g2.jpeg" alt="Charm Close-up" class="gallery-img">
+        <img src="images/g3.webp" alt="Bouquet Gift" class="gallery-img">
+        <img src="images/g4.jpeg" alt="Candle Display" class="gallery-img">
+        <img src="images/g5.jpeg" alt="Charm Bracelet Mix" class="gallery-img">
+        <img src="images/g6.webp" alt="Handmade Bouquet" class="gallery-img">
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img">
+      <div id="caption"></div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2025 The Amour Creations | Made with 💕</p>
+    <p>
+        <a href="https://www.instagram.com/the.amour.creations/" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a> |
+        <a href="https://wa.me/917674865110" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

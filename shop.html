@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shop | The Amour Creations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+      <h1>The Amour Creations</h1>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="cart-icon">
+      <img src="images/cart.png" alt="Cart" id="cart-btn">
+      <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <main class="shop-section">
+    <h2>Shop Our Handmade Collection 🩷</h2>
+    <p class="shop-intro">Browse bracelets, charms, bouquets and candles — each made with love.</p>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="bracelet">Bracelets</button>
+      <button class="filter-btn" data-category="charm">Charms</button>
+      <button class="filter-btn" data-category="bouquet">Bouquets</button>
+      <button class="filter-btn" data-category="candle">Candles</button>
+    </div>
+
+    <div id="product-grid" class="product-grid"></div>
+  </main>
+
+  <!-- Cart Sidebar (shared) -->
+  <div class="cart-sidebar" id="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Cart 🛍️</h3>
+      <span id="close-cart">&times;</span>
+    </div>
+    <div id="cart-items"></div>
+    <div class="cart-footer">
+      <h4>Total: ₹<span id="cart-total">0</span></h4>
+      <button class="btn checkout-btn" id="sidebar-checkout">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 The Amour Creations | Made with 💕</p>
+    <p>
+        <a href="https://www.instagram.com/the.amour.creations/" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a> |
+        <a href="https://wa.me/917674865110" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
