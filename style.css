@@ -836,3 +836,32 @@ header {
   background-color: #fff7fa;
   box-shadow: 0 2px 10px rgba(255, 75, 129, 0.1);
 }
+
+/*insta reels*/
+.reels {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.reels h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.reels p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.reels-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reels-grid blockquote {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
