@@ -19,6 +19,7 @@
 const products = [
   { id: "b1", category: "bracelet", name: "Customized Crystal Butterfly Charm Bracelet", price: 100, img: "images/bracelets/b1.jpg", colors: ["Pink","Lavender","Sky Blue","Mint Green","Yellow", "Orange"] },
   { id: "b2", category: "bracelet", name: "Flower Charm  Bracelet", price: 60, img: "images/bracelets/b2.jpg", colors: ["Rose Gold","Navy Blue","Pink","Sky Blue","Red","Orange"] },
+  { id: "b2", category: "bracelet", name: "Black and White Marble Bracelet", price: 75, img: "images/bracelets/b5.jpeg", colors: [] },
   { id: "b2", category: "bracelet", name: "Crystal and Color Bracelet", price: 40, img: "images/bracelets/b3.jpg", colors: ["Lavender","Pink","Yellow","Blue","Orange"] },
   { id: "b2", category: "bracelet", name: "Crystal Color Bracelet", price: 40, img: "images/bracelets/b4.jpg", colors: ["Blue","Green","Pink","Purple","Yellow","Orange"] },
 
@@ -35,12 +36,15 @@ const products = [
   { id: "ch2", category: "charm", name: "Floral Pearl Phone Charm", price: 60, img: "images/charms/c10.jpg", colors: [] },
   { id: "ch2", category: "charm", name: "Heavy Aesthetic Pearl Phone Charm", price: 200, img: "images/charms/c11.jpg", colors: [] },
   { id: "ch2", category: "charm", name: "Simple Pearl Phone Charm", price: 60, img: "images/charms/c12.jpg", colors: [] },
+  { id: "ch2", category: "charm", name: "Rainbow colorful Phone Charm", price: 100, img: "images/charms/c16.png", colors: [] },
+  { id: "ch2", category: "charm", name: "Pearl and Lavender Phone Charm", price: 100, img: "images/charms/c17.png", colors: [] },
+  { id: "ch2", category: "charm", name: "Sky Blue Pearl Phone Charm", price: 100, img: "images/charms/c18.jpeg", colors: [] },
   { id: "ch2", category: "charm", name: "Lavender Aesthetic Pearl Phone Charm", price: 150, img: "images/charms/c13.jpg", colors: ["Lavender","Pink","Orange"] },
   { id: "ch2", category: "charm", name: "Crown Charm Lavender Phone Charm", price: 150, img: "images/charms/c14.jpg", colors: ["Lavender","Pink","Orange"] },
   { id: "ch2", category: "charm", name: "Panda Charm Lavender Phone Charm", price: 150, img: "images/charms/c15.jpg", colors: ["Lavender","Pink","Orange"] },
 
   { id: "bou1", category: "bouquet", name: "Navy Blue Flower Bouquet", price: 299, img: "images/bouquets/r1.jpg", colors: [] },
-  { id: "bou2", category: "bouquet", name: "Mini Red Rose Flower Bouquet", price: 159, img: "images/bouquets/r2.jpg", colors: [] },
+  { id: "bou2", category: "bouquet", name: "Mini Red Rose Flower Bouquet", price: 300, img: "images/bouquets/r5.jpeg", colors: [] },
   { id: "bou2", category: "bouquet", name: "Queen Gifting Red Rose Flower Bouquet", price: 599, img: "images/bouquets/r3.jpg", colors: [] },
   { id: "bou2", category: "bouquet", name: "Large Red Rose Flower Bouquet", price: 299, img: "images/bouquets/r4.jpg", colors: [] },
 
